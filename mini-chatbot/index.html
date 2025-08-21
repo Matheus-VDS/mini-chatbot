@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mini Chat IA</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Mini Chat com IA 🤖</h1>
+    <input type="password" id="apiKey" placeholder="Digite sua API Key">
+    <select id="modelSelect">
+      <option value="gpt-4.1-mini">GPT-4.1 Mini</option>
+      <option value="gpt-4.1-nano">GPT-4.1 Nano</option>
+    </select>
+  </header>
+
+  <main>
+    <input type="text" id="userInput" placeholder="Faça sua pergunta...">
+    <button id="askBtn">Perguntar</button>
+    <div id="loading" class="hidden">Carregando...</div>
+    <div id="error" class="hidden"></div>
+    <div id="response" class="hidden"></div>
+  </main>
+
+  <script src="script.js" type="module"></script>
+</body>
+</html>
