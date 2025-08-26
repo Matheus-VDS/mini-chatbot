@@ -1,12 +1,12 @@
 # 🤖 Mini Chatbot IA
 
-Um chatbot simples e intuitivo que utiliza a API da OpenAI para responder perguntas dos usuários. Interface clean e responsiva construída com HTML, CSS e JavaScript vanilla.
+Um chatbot simples e intuitivo que utiliza a API da OpenAI ou Gemini para responder perguntas dos usuários. Interface limpa e responsiva construída com HTML, CSS e JavaScript.
 
 ## ✨ Funcionalidades
 
 - 💬 Interface de chat simples e intuitiva
 - 🔑 Configuração segura da API Key
-- 🧠 Seleção de modelos de IA (GPT-4.1 Nano)
+- 🧠 Seleção de modelos de IA
 - ⚡ Respostas em tempo real
 - 🎨 Design responsivo e moderno
 - 🚨 Tratamento completo de erros
@@ -95,13 +95,3 @@ A aplicação foi desenvolvida com foco em:
 - Interface otimizada para desktop
 - Elementos centralizados e bem organizados
 - Boa usabilidade em dispositivos móveis
-
-## 🤝 Contribuição
-
-Contribuições são bem-vindas! Sinta-se à vontade para:
-
-1. Fazer fork do projeto
-2. Criar uma branch para sua feature (`git checkout -b feature/AmazingFeature`)
-3. Commit suas mudanças (`git commit -m 'Add some AmazingFeature'`)
-4. Push para a branch (`git push origin feature/AmazingFeature`)
-5. Abrir um Pull Request
